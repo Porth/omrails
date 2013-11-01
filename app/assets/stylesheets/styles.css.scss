@@ -20,10 +20,11 @@ body{padding-top: 60px;}
 	padding-top: 50px;
 	clear: both;
 	color: $grayLight;
-	a{
-		color: $gray;
 	}
-}
+
+    .footer a{
+        color: $gray;
+    }
 
 .box {
     margin: 5px;
