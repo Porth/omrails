@@ -1,0 +1,8 @@
+<h1><%= @user.name %></h1>
+<div id="pins">
+	<%= render @pins %>
+</div>
+
+<div style="padding-top:20px; clear:both;">
+<%= will_paginate @pins %>
+</div>
